@@ -1,0 +1,24 @@
+{
+  "name": "realtor_app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run start",
+    "dev": "npm run dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "mvc-setup": "^1.1.0",
+    "nodemon": "^1.18.10",
+    "pg-promise": "^8.5.5"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "description": ""
+}
