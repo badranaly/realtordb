@@ -13,7 +13,6 @@ module.exports = {
 
         realtordb.createUser(req.body)
         .then(result => {
-            console.log("made it")
             res.json({
                 msg: "User Inserted Successfully",
                 credentials: { result }
@@ -25,5 +24,10 @@ module.exports = {
                 msg: "Failed to insert User"
                 })
             })
+    },
+    getUsers(req, res){
+        realtordb.getAllUsers().then(data => {
+            res.json(data);
+        })
     }
 }

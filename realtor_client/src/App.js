@@ -27,7 +27,7 @@ class App extends Component {
     e.preventDefault();
     const { username, password } = this.state;
     authenticateUser(username, password).then((res) => {
-      console.log(res)
+      alert("user added");
     }).catch(err => console.error(err));
   }
 
